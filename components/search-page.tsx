@@ -35,7 +35,7 @@ type SearchResult = {
 };
 
 const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || "https://api.presetfinder.my.id";
+  process.env.NEXT_PUBLIC_API_URL || "http://38.47.95.203:2058";
 
 export default function SearchPage() {
   const [url, setUrl] = useState("");
